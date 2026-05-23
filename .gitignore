@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+jspm_packages/
+web_modules/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build and Output directories
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+
+# Environment variables and secrets (NEVER commit these)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.pem
+*.key
+
+# Testing and Coverage
+coverage/
+.nyc_output/
+.jest/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+Thumbs.db
+
+# Optional: Locks (Uncomment if you want to ignore locks, though usually recommended to keep them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+# bun.lockb
+
+# Archives and Scripts
+*.zip
+*.ps1
